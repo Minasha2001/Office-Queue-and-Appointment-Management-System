@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divisional Secretariat Login</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+height:100vh;
+background:#eef4fc;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:1500px;
+height:900px;
+background:#fff;
+border-radius:30px;
+overflow:hidden;
+display:flex;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.left{
+width:55%;
+background:url('image/background.jpg') center center/cover no-repeat;
+position:relative;
+padding:60px;
+}
+
+.left::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(255,255,255,.45);
+}
+
+.left-content{
+position:relative;
+z-index:2;
+text-align:center;
+}
+
+.logo{
+width:110px;
+margin-bottom:20px;
+}
+
+.left-content h1{
+font-size:55px;
+color:#0d2f80;
+font-weight:700;
+}
+
+.left-content h3{
+color:#1560ff;
+margin-top:10px;
+font-size:28px;
+}
+
+.line{
+width:120px;
+height:4px;
+background:#2b73ff;
+margin:20px auto;
+border-radius:10px;
+}
+
+.points{
+font-size:22px;
+margin-top:20px;
+}
+
+.office-box{
+position:absolute;
+bottom:40px;
+left:50%;
+transform:translateX(-50%);
+background:#fff;
+width:85%;
+padding:25px;
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+z-index:2;
+}
+
+.feature{
+text-align:center;
+}
+
+.feature i{
+font-size:35px;
+color:#1560ff;
+margin-bottom:10px;
+}
+
+.right{
+width:45%;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:50px;
+background:#fff;
+}
+
+.login-card{
+width:100%;
+max-width:550px;
+}
+
+.icon-circle{
+width:100px;
+height:100px;
+border-radius:50%;
+background:linear-gradient(135deg,#1560ff,#003db8);
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+color:white;
+font-size:40px;
+}
+
+.login-title{
+text-align:center;
+margin-top:25px;
+}
+
+.login-title h1{
+font-size:48px;
+color:#0d2f80;
+}
+
+.login-title p{
+font-size:18px;
+color:#666;
+margin-top:10px;
+}
+
+.divider{
+width:100px;
+height:4px;
+background:#1560ff;
+margin:20px auto;
+border-radius:10px;
+}
+
+.input-group{
+display:flex;
+margin-top:20px;
+border:1px solid #ddd;
+border-radius:15px;
+overflow:hidden;
+height:70px;
+}
+
+.icon-box{
+width:70px;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f3f7ff;
+font-size:24px;
+color:#0d2f80;
+}
+
+.input-group input,
+.input-group select{
+flex:1;
+border:none;
+outline:none;
+padding:0 20px;
+font-size:18px;
+}
+
+.options{
+display:flex;
+justify-content:space-between;
+margin-top:20px;
+font-size:16px;
+}
+
+.options a{
+text-decoration:none;
+color:#1560ff;
+}
+
+.login-btn{
+width:100%;
+height:70px;
+margin-top:30px;
+border:none;
+border-radius:15px;
+background:linear-gradient(135deg,#1560ff,#003db8);
+color:white;
+font-size:26px;
+font-weight:600;
+cursor:pointer;
+}
+
+.footer{
+margin-top:30px;
+text-align:center;
+color:#555;
+}
+
+@media(max-width:1100px){
+
+.container{
+flex-direction:column;
+height:auto;
+}
+
+.left,
+.right{
+width:100%;
+}
+
+.office-box{
+position:relative;
+margin-top:40px;
+bottom:0;
+left:0;
+transform:none;
+width:100%;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left">
+
+<div class="left-content">
+
+<img src="image/gov.png" class="logo">
+
+<h1>Divisional Secretariat Office</h1>
+
+<div class="line"></div>
+
+<h3>Queue & Appointment Management System</h3>
+
+<div class="points">
+Efficient Service • Less Waiting • Better Experience
+</div>
+
+</div>
+
+<div class="office-box">
+
+<div class="feature">
+<i class="fas fa-users"></i>
+<h4>Manage Queue</h4>
+<p>Organized Service</p>
+</div>
+
+<div class="feature">
+<i class="fas fa-calendar-check"></i>
+<h4>Book Appointment</h4>
+<p>Easy & Fast</p>
+</div>
+
+<div class="feature">
+<i class="fas fa-shield-alt"></i>
+<h4>Secure System</h4>
+<p>Your data is safe</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="login-card">
+
+<div class="icon-circle">
+<i class="fas fa-user-lock"></i>
+</div>
+
+<div class="login-title">
+<h1>Welcome Back!</h1>
+<p>Please login to continue</p>
+<div class="divider"></div>
+</div>
+
+<form action="login_process.php" method="POST">
+
+<div class="input-group">
+<div class="icon-box">
+<i class="far fa-user"></i>
+</div>
+<input type="text" name="username" placeholder="Username">
+</div>
+
+<div class="input-group">
+<div class="icon-box">
+<i class="fas fa-lock"></i>
+</div>
+<input type="password" name="password" placeholder="Password">
+</div>
+
+<div class="input-group">
+<div class="icon-box">
+<i class="fas fa-building"></i>
+</div>
+
+<select name="user_type">
+<option>Select User Type</option>
+<option>Admin</option>
+<option>Officer</option>
+<option>Citizen</option>
+</select>
+</div>
+
+<div class="options">
+<label><input type="checkbox"> Remember me</label>
+<a href="#">Forgot Password?</a>
+</div>
+
+<button class="login-btn">
+<i class="fas fa-sign-in-alt"></i> Login
+</button>
+
+</form>
+
+<div class="footer">
+Need Help? Contact System Administrator
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
