@@ -309,20 +309,26 @@ Efficient Service • Less Waiting • Better Experience
 <div class="divider"></div>
 </div>
 
+<?php if (isset($_GET['error'])): ?>
+<div class="alert alert-error" style="background-color: #fce8e6; color: #c53929; border: 1px solid #f8c9c4; padding: 15px; border-radius: 10px; margin-top: 15px; font-size: 16px; text-align: center;">
+    <i class="fas fa-exclamation-circle"></i> <?php echo htmlspecialchars($_GET['error']); ?>
+</div>
+<?php endif; ?>
+
 <form action="login_process.php" method="POST">
 
 <div class="input-group">
 <div class="icon-box">
 <i class="far fa-user"></i>
 </div>
-<input type="text" name="username" placeholder="Username">
+<input type="text" name="username" placeholder="Username" required>
 </div>
 
 <div class="input-group">
 <div class="icon-box">
 <i class="fas fa-lock"></i>
 </div>
-<input type="password" name="password" placeholder="Password">
+<input type="password" name="password" placeholder="Password" required>
 </div>
 
 <div class="input-group">
@@ -330,8 +336,8 @@ Efficient Service • Less Waiting • Better Experience
 <i class="fas fa-building"></i>
 </div>
 
-<select name="user_type">
-<option>Select User Type</option>
+<select name="user_type" required>
+<option value="">Select User Type</option>
 <option>Admin</option>
 <option>Officer</option>
 <option>Citizen</option>
@@ -351,6 +357,8 @@ Efficient Service • Less Waiting • Better Experience
 
 <div class="footer">
 Need Help? Contact System Administrator
+<br><br>
+Are you a Citizen? <a href="register.php" style="color: #1560ff; text-decoration: none; font-weight: 600;">Register Here</a>
 </div>
 
 </div>
