@@ -18,11 +18,12 @@ font-family:'Segoe UI',sans-serif;
 
 body{
 height:100vh;
-background:#eef4fc;
+background:linear-gradient(135deg,#edf5ff,#ffffff);
 display:flex;
 justify-content:center;
 align-items:center;
 padding:20px;
+overflow-x:hidden;
 }
 
 .container{
@@ -37,10 +38,11 @@ box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 
 .left{
-width:55%;
+width:58%;
+position:relative;
 background:url('image/background.jpg') center center/cover no-repeat;
 position:relative;
-padding:60px;
+padding:50px;
 }
 
 .left::before{
@@ -62,6 +64,20 @@ text-align:center;
 .logo{
 width:110px;
 margin-bottom:20px;
+}
+
+.office-image{
+    margin-top:40px;
+    text-align:center;
+    position:relative;
+    z-index:2;
+}
+
+.office-image img{
+    width:100%;
+    max-width:850px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
 .left-content h1{
@@ -124,8 +140,12 @@ background:#fff;
 }
 
 .login-card{
-width:100%;
-max-width:550px;
+    width:100%;
+    max-width:560px;
+    background:#fff;
+    padding:40px;
+    border-radius:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
 }
 
 .icon-circle{
@@ -168,20 +188,33 @@ border-radius:10px;
 .input-group{
 display:flex;
 margin-top:20px;
-border:1px solid #ddd;
+border:1px solid #e3e7ef;
 border-radius:15px;
 overflow:hidden;
-height:70px;
+height:75px;
+background:#fff;
+box-shadow:0 3px 10px rgba(0,0,0,.05);
 }
 
 .icon-box{
-width:70px;
+width:75px;
 display:flex;
 justify-content:center;
 align-items:center;
-background:#f3f7ff;
+background:#f5f8ff;
 font-size:24px;
-color:#0d2f80;
+color:#1560ff;
+border-right:1px solid #e3e7ef;
+}
+
+.input-group input,
+.input-group select{
+flex:1;
+border:none;
+outline:none;
+padding:0 20px;
+font-size:18px;
+background:transparent;
 }
 
 .input-group input,
@@ -207,17 +240,27 @@ color:#1560ff;
 
 .login-btn{
 width:100%;
-height:70px;
+height:75px;
 margin-top:30px;
 border:none;
 border-radius:15px;
-background:linear-gradient(135deg,#1560ff,#003db8);
+background:linear-gradient(135deg,#1b67ff,#0047d6);
 color:white;
-font-size:26px;
+font-size:24px;
 font-weight:600;
 cursor:pointer;
+box-shadow:0 10px 25px rgba(0,71,214,.35);
+transition:all .3s ease;
 }
 
+.login-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 15px 30px rgba(0,71,214,.45);
+}
+
+.login-btn:active{
+transform:translateY(0);
+}
 .footer{
 margin-top:30px;
 text-align:center;
@@ -257,7 +300,7 @@ width:100%;
 
 <div class="left-content">
 
-<img src="image/gov.png" class="logo">
+<img src="image/emblem.jpg" class="logo">
 
 <h1>Divisional Secretariat Office</h1>
 
@@ -266,9 +309,13 @@ width:100%;
 <h3>Queue & Appointment Management System</h3>
 
 <div class="points">
-Efficient Service • Less Waiting • Better Experience
+• Efficient Service • Less Waiting • Better Experience
 </div>
 
+</div>
+
+<div class="office-image">
+    <img src="image/background.jpg" alt="Office">
 </div>
 
 <div class="office-box">

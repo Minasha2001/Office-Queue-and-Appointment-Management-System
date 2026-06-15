@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php");
     exit();
 }
-
+  
 $page_title = "Admin Dashboard";
 $today_str = date('Y-m-d');
 
