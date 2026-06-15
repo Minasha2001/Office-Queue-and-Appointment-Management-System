@@ -38,7 +38,7 @@ box-shadow:0 15px 40px rgba(0,0,0,.15);
 
 .left{
 width:55%;
-background:url('image/background.jpg') center center/cover no-repeat;
+background:url('image/background.jpg?v=4') center center/cover no-repeat;
 position:relative;
 padding:60px;
 }
@@ -257,7 +257,7 @@ width:100%;
 
 <div class="left-content">
 
-<img src="image/gov.png" class="logo">
+<img src="image/gov.png?v=4" class="logo">
 
 <h1>Divisional Secretariat Office</h1>
 

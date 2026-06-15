@@ -2,6 +2,16 @@
 CREATE DATABASE IF NOT EXISTS office_queue_system;
 USE office_queue_system;
 
+-- Drop existing tables in reverse dependency order to prevent FK errors (errno 150)
+DROP TABLE IF EXISTS activity_logs;
+DROP TABLE IF EXISTS queue_tokens;
+DROP TABLE IF EXISTS appointments;
+DROP TABLE IF EXISTS holidays;
+DROP TABLE IF EXISTS schedules;
+DROP TABLE IF EXISTS staff;
+DROP TABLE IF EXISTS services;
+DROP TABLE IF EXISTS users;
+
 -- 1. Users Table
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,

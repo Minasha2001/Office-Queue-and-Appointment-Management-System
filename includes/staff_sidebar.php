@@ -4,7 +4,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <div class="sidebar">
     <div>
         <div class="sidebar-logo">
-            <img src="image/gov.png" alt="Sri Lanka Emblem">
+            <img src="image/gov.png?v=4" alt="Sri Lanka Emblem">
             <h3>Officer Panel<br>Secretariat</h3>
         </div>
         
