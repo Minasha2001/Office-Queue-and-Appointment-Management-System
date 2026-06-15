@@ -240,7 +240,7 @@ body {
 
 /* Banner Component */
 .welcome-banner {
-    background: linear-gradient(135deg, rgba(13, 47, 128, 0.9), rgba(21, 96, 255, 0.85)), url('image/background.jpg') center center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(13, 47, 128, 0.9), rgba(21, 96, 255, 0.85)), url('image/background.jpg?v=4') center center/cover no-repeat;
     border-radius: var(--border-radius);
     padding: 40px;
     color: white;

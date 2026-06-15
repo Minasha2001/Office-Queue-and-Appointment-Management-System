@@ -48,7 +48,7 @@ $services_result = mysqli_query($conn, $services_query);
                     </a>
                 </div>
             </div>
-            <img src="image/background.jpg" alt="Divisional Secretariat" class="banner-img">
+            <img src="image/background.jpg?v=4" alt="Divisional Secretariat" class="banner-img">
         </div>
 
         <!-- Available Services Section -->

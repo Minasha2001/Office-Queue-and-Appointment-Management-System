@@ -89,7 +89,7 @@ box-shadow:0 15px 40px rgba(0,0,0,.15);
 
 .left{
 width:45%;
-background: linear-gradient(135deg, rgba(13, 47, 128, 0.9), rgba(21, 96, 255, 0.8)), url('image/background.jpg') center center/cover no-repeat;
+background: linear-gradient(135deg, rgba(13, 47, 128, 0.9), rgba(21, 96, 255, 0.8)), url('image/background.jpg?v=4') center center/cover no-repeat;
 position:relative;
 padding:60px;
 display:flex;
@@ -299,7 +299,7 @@ grid-column: span 1;
 <div class="container">
     <div class="left">
         <div class="left-content">
-            <img src="image/gov.png" class="logo" alt="Emblem">
+            <img src="image/gov.png?v=4" class="logo" alt="Emblem">
             <h1>Divisional Secretariat</h1>
             <div class="line"></div>
             <h3>Queue & Appointment Management System</h3>

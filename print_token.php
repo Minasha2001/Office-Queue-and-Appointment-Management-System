@@ -224,7 +224,7 @@ $est_waiting_time = ceil($avg_serving_time * ($waiting_ahead + 1));
 <body>
 
 <div class="ticket">
-    <img src="image/gov.png" class="logo" alt="Government Emblem">
+    <img src="image/gov.png?v=4" class="logo" alt="Government Emblem">
     <h2>Divisional Secretariat Office</h2>
     <h3>Queue & Appointment Management System</h3>
     

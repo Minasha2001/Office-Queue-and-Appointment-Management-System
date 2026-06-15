@@ -38,9 +38,14 @@ box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 
 .left{
+<<<<<<< HEAD
 width:58%;
 position:relative;
 background:url('image/background.jpg') center center/cover no-repeat;
+=======
+width:55%;
+background:url('image/background.jpg?v=4') center center/cover no-repeat;
+>>>>>>> f509d7b8426c85481f6dc852ff712ac24a635cea
 position:relative;
 padding:50px;
 }
@@ -300,7 +305,11 @@ width:100%;
 
 <div class="left-content">
 
+<<<<<<< HEAD
 <img src="image/emblem.jpg" class="logo">
+=======
+<img src="image/gov.png?v=4" class="logo">
+>>>>>>> f509d7b8426c85481f6dc852ff712ac24a635cea
 
 <h1>Divisional Secretariat Office</h1>
 
