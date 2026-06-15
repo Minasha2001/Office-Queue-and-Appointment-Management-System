@@ -28,8 +28,8 @@ overflow-x:hidden;
 
 .container{
 width:100%;
-max-width:1500px;
-height:900px;
+max-width:1536px;
+height:768px;
 background:#fff;
 border-radius:30px;
 overflow:hidden;
@@ -38,16 +38,14 @@ box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 
 .left{
-<<<<<<< HEAD
-width:58%;
+width:55%;
 position:relative;
 background:url('image/background.jpg') center center/cover no-repeat;
 =======
 width:55%;
 background:url('image/background.jpg?v=4') center center/cover no-repeat;
->>>>>>> f509d7b8426c85481f6dc852ff712ac24a635cea
 position:relative;
-padding:50px;
+padding:40px;
 }
 
 .left::before{
@@ -67,8 +65,8 @@ text-align:center;
 }
 
 .logo{
-width:110px;
-margin-bottom:20px;
+width:75px;
+margin-bottom:15px;
 }
 
 .office-image{
@@ -80,13 +78,15 @@ margin-bottom:20px;
 
 .office-image img{
     width:100%;
-    max-width:850px;
-    border-radius:20px;
+    max-width:650px;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
 .left-content h1{
-font-size:55px;
+font-size:32px;
 color:#0d2f80;
 font-weight:700;
 }
@@ -94,7 +94,7 @@ font-weight:700;
 .left-content h3{
 color:#1560ff;
 margin-top:10px;
-font-size:28px;
+font-size:18px;
 }
 
 .line{
@@ -106,7 +106,7 @@ border-radius:10px;
 }
 
 .points{
-font-size:22px;
+font-size:16px;
 margin-top:20px;
 }
 
@@ -146,16 +146,16 @@ background:#fff;
 
 .login-card{
     width:100%;
-    max-width:560px;
+    max-width:480px;
     background:#fff;
-    padding:40px;
+    padding:30px;
     border-radius:30px;
     box-shadow:0 10px 30px rgba(0,0,0,.10);
 }
 
 .icon-circle{
-width:100px;
-height:100px;
+width:75px;
+height:75px;
 border-radius:50%;
 background:linear-gradient(135deg,#1560ff,#003db8);
 display:flex;
@@ -163,7 +163,7 @@ justify-content:center;
 align-items:center;
 margin:auto;
 color:white;
-font-size:40px;
+font-size:30px;
 }
 
 .login-title{
@@ -172,7 +172,7 @@ margin-top:25px;
 }
 
 .login-title h1{
-font-size:48px;
+font-size:30px;
 color:#0d2f80;
 }
 
@@ -196,7 +196,7 @@ margin-top:20px;
 border:1px solid #e3e7ef;
 border-radius:15px;
 overflow:hidden;
-height:75px;
+height:55px;
 background:#fff;
 box-shadow:0 3px 10px rgba(0,0,0,.05);
 }
@@ -228,7 +228,7 @@ flex:1;
 border:none;
 outline:none;
 padding:0 20px;
-font-size:18px;
+font-size:15px;
 }
 
 .options{
@@ -245,13 +245,13 @@ color:#1560ff;
 
 .login-btn{
 width:100%;
-height:75px;
+height:55px;
 margin-top:30px;
 border:none;
 border-radius:15px;
 background:linear-gradient(135deg,#1b67ff,#0047d6);
 color:white;
-font-size:24px;
+font-size:18px;
 font-weight:600;
 cursor:pointer;
 box-shadow:0 10px 25px rgba(0,71,214,.35);
@@ -294,6 +294,7 @@ width:100%;
 }
 }
 
+
 </style>
 </head>
 
@@ -305,11 +306,9 @@ width:100%;
 
 <div class="left-content">
 
-<<<<<<< HEAD
 <img src="image/emblem.jpg" class="logo">
-=======
+
 <img src="image/gov.png?v=4" class="logo">
->>>>>>> f509d7b8426c85481f6dc852ff712ac24a635cea
 
 <h1>Divisional Secretariat Office</h1>
 
