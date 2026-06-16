@@ -17,13 +17,15 @@ font-family:'Segoe UI',sans-serif;
 }
 
 body{
-height:100vh;
-background:linear-gradient(135deg,#edf5ff,#ffffff);
-display:flex;
-justify-content:center;
-align-items:center;
-padding:20px;
-overflow-x:hidden;
+overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+     background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
 }
 
 .container{
@@ -307,11 +309,11 @@ width:100%;
 <img src="image/gov.png?v=4" class="logo">
 
 
-<h1>Divisional Secretariat Office</h1>
+<h3>Divisional Secretariat Office</h3>
 
 <div class="line"></div>
 
-<h3>Queue & Appointment Management System</h3>
+<h5>Queue & Appointment Management System</h5>
 
 <div class="points">
 • Efficient Service • Less Waiting • Better Experience
