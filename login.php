@@ -56,7 +56,7 @@ top:0;
 left:0;
 width:100%;
 height:100%;
-background:rgba(255,255,255,.45);
+background:rgba(255,255,255,.15);
 }
 
 .left-content{
@@ -78,8 +78,10 @@ margin-bottom:20px;
 }
 
 .office-image img{
-    width:100%;
-    max-width:850px;
+    width:80%;
+    max-width:4ch00px; /* Image size */
+    height:auto;
+    object-fit:cover;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
