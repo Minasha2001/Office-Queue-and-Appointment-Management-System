@@ -146,12 +146,12 @@ background:#fff;
 }
 
 .login-card{
-    width:100%;
-    max-width:560px;
     background:#fff;
-    padding:40px;
-    border-radius:30px;
-    box-shadow:0 10px 30px rgba(0,0,0,.10);
+    width:100%;
+    max-width:430px;
+    border-radius:26px;
+    padding:44px 40px 36px;
+    box-shadow:0 30px 60px rgba(20,55,110,.16);
 }
 
 .icon-circle{
